@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+# ようこそ！
+ここはsoshy(iggilightkuppa)のブログです！
+***ゆっくりしていってね！！！！！！！！！！***
+
+[投稿](./_posts/)
