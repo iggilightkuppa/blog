@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Welcome！
+<h1>Welcome！</h1>
 
 ここはsoshy(iggilightkuppa)のブログです！<br>
 ***ゆっくりしていってね！！！！！！！！！！***
