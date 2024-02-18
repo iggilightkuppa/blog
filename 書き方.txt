@@ -1,6 +1,6 @@
 検索欄
 
-<form action="/search.html" method="get">
+<form action="blog/search.html" method="get">
   <input type="search" name="q" placeholder="Search" />
 </form>
 
