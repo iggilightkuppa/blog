@@ -1,0 +1,16 @@
+検索欄
+
+<form action="/search.html" method="get">
+  <input type="search" name="q" placeholder="Search" />
+</form>
+
+
+コメント
+
+<script src="https://utteranc.es/client.js"
+        repo="iggilightkuppa/blog"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
