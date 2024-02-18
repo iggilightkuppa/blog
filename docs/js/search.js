@@ -46,7 +46,7 @@ $(function() {
   $('#globalNavigation form input[type="search"]').val(queryString);
 
   var matchedPosts = [];
-  $.getJSON('/search.json', function(posts) {
+  $.getJSON('blog/search.json', function(posts) {
     posts.forEach(function(postInfo) {
       if(!postInfo.tags) postInfo.tags = [];
       var postTagNames = [];
@@ -91,7 +91,7 @@ $(function() {
           var dd = '<dd>tags: ';
           var tagList = '';
           postInfo.tags.forEach(function(tag, tagIndex, tags) {
-            tagList += '<a href="/search.html?q=%5B' + tag['tagName'] + '%5D">' + tag['tagName'] + '<span>[' + tag['count'] + ']</span></a>';
+            tagList += '<a href="blog/search.html?q=%5B' + tag['tagName'] + '%5D">' + tag['tagName'] + '<span>[' + tag['count'] + ']</span></a>';
             if(tagIndex < tags.length - 1) tagList += ', ';
           });
           dd += tagList;
