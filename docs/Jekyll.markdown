@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Jekyll
+permalink: /Jekyll/
 ---
 
 これは Jekyll を元に作られています.
