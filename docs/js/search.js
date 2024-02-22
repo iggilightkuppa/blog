@@ -1,3 +1,5 @@
+alert("This is test!");
+
 /**
  * URLのパラメタから検索文字列を取り出し、オブジェクトに格納して返す。
  * オブジェクトは'tags'、'keywords'キィを持つ。値は共に配列。
@@ -8,7 +10,6 @@
 function getQuery() {
     // 返却するオブジェクトの初期化。
     var query = { 'tags': [], 'keywords': [] };
-    console.log(query);
     // LocationオブジェクトのsearchプロパティはURLのパラメタ部の文字列。
     // searchプロパティは'?'を含むのでString.substring(1)で'?'を取り除き、
     // '&'でパラメタ名毎に分割して配列に入れる。
