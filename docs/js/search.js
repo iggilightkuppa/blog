@@ -42,7 +42,7 @@ $(function() {
     queryString += query.keywords.join(' ');
     $('#globalNavigation form input[type="search"]').val(queryString);
     var matchedPosts = [];
-    $.getJSON('../search.json', function(posts) {
+    $.getJSON('https://iggilightkuppa.github.io/blog/search.json', function(posts) {
         posts.forEach(function(postInfo) {
             if(!postInfo.tags) postInfo.tags = [];
             var postTagNames = [];
