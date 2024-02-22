@@ -1,5 +1,3 @@
-alert("Please check this script!");
-
 /**
  * URLのパラメタから検索文字列を取り出し、オブジェクトに格納して返す。
  * オブジェクトは'tags'、'keywords'キィを持つ。値は共に配列。
@@ -42,6 +40,7 @@ $(function() {
     queryString += query.keywords.join(' ');
     $('#globalNavigation form input[type="search"]').val(queryString);
     var matchedPosts = [];
+    //この下のjsonファイルはhttps://を使う(Jekyllで処理されているためそこにしかない)
     $.getJSON('https://iggilightkuppa.github.io/blog/search.json', function(posts) {
         posts.forEach(function(postInfo) {
             if(!postInfo.tags) postInfo.tags = [];
@@ -95,6 +94,6 @@ $(function() {
             });
             $('#matchedList').append(dl);
         }
-        else $('#matchedList').append('<p>Noresults</p>');
+        else $('#matchedList').append('<p>該当件数は０件ですワン</p>');
     });
 });
