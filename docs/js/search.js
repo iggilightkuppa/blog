@@ -95,6 +95,6 @@ $(function() {
             });
             $('#matchedList').append(dl);
         }
-        else $('#matchedList').append('<p>該当件数は０件ですワン</p>');
+        else $('#matchedList').append('<p>Noresults</p>');
     });
 });
