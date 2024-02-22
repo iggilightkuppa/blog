@@ -1,5 +1,3 @@
-alert("This is test!");
-
 /**
  * URLのパラメタから検索文字列を取り出し、オブジェクトに格納して返す。
  * オブジェクトは'tags'、'keywords'キィを持つ。値は共に配列。
@@ -42,7 +40,7 @@ $(function() {
     queryString += query.keywords.join(' ');
     $('#globalNavigation form input[type="search"]').val(queryString);
     var matchedPosts = [];
-    $.getJSON('https://iggilightkuppa.github.io/blog/search.json', function(posts) {
+    $.getJSON('../search.json', function(posts) {
         posts.forEach(function(postInfo) {
             if(!postInfo.tags) postInfo.tags = [];
             var postTagNames = [];
@@ -95,6 +93,6 @@ $(function() {
             });
             $('#matchedList').append(dl);
         }
-        else $('#matchedList').append('<p>no search result.</p>');
+        else $('#matchedList').append('<p>該当件数は０件ですワン</p>');
     });
 });
