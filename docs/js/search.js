@@ -1,3 +1,5 @@
+alert("Please check this script!");
+
 /**
  * URLのパラメタから検索文字列を取り出し、オブジェクトに格納して返す。
  * オブジェクトは'tags'、'keywords'キィを持つ。値は共に配列。
