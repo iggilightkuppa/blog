@@ -93,13 +93,15 @@ h6 {
     /* 通常のサイズ */
     font-weight: 400;
     /* 下線(水色)をつける */
-    border-bottom: 2px solid #0099FF;
-    margin-bottom: 1em;
+    /* border-bottom: 2px solid #0099FF; */
+    /* margin-bottom: 1em; */
 }
 
 a {
     /* 標準リンク */
-    color: #2a7ae2;
+    /* color: #2a7ae2; */
+    /* やっぱりモーブ色 */
+    color: #915da3;
     /* 下線なし */
     text-decoration: none;
 }
@@ -113,8 +115,10 @@ a:visited {
 a:hover {
     /* タッチ時リンク */
     /* 暗めのオレンジ */
-    color: #df6700;
-    /* 下線あり */
+    /* color: #df6700; */
+    /* やっぱりモーブ色 */
+    color: #915da3;
+    /* 下線あり (これで判断)*/
     text-decoration: underline;
 }
 
@@ -126,7 +130,9 @@ a:hover {
 
 .social-media-list a:hover .username {
     /* ただしユーザー名(iggilightkuppa等)の時は下線あり */
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    /* やっぱりなし */
+    text-decoration: none;
 }
 
 blockquote {
@@ -246,12 +252,17 @@ table td {
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    text-decoration: none;
 }
 
-/* 既に訪れていた場合 */
+
+/* 既に訪れていた場合等ほかのパターン */
 .site-title,
-.site-title:visited {
+.site-title:visited,
+.site-title:hover {
     color: #00bb00;
+    /* 下線は引かない */
+    text-decoration: none;
 }
 
 .site-nav {
