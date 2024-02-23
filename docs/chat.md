@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: dark
 title: 雑談
 permalink: /chat/
 ---
@@ -23,4 +23,4 @@ permalink: /chat/
 以下テスト文とか...<br>
 のような気がする
 
-[自己ループ](./chat.html)
+[自己ループ](./l)
