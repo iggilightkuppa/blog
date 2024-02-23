@@ -7,32 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 -->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-    <title>{{ page.title | escape }} | soshy(iggilightkuppa)のブログ</title>
+    <title>{{ page.title | escape }} | iggilightkuppaのブログ</title>
     <meta name="generator" content="Jekyll v3.9.5" />
-    <meta property="og:title" content="雑談" />
+    <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:locale" content="en_US" />
     <meta name="description"
-        content="This is soshy(iggilightkuppa)’s blog. I welcome all visitors. Nice to meet you!" />
+        content="This is iggilightkuppa's blog. I welcome all visitors. Nice to meet you!" />
     <meta property="og:description"
-        content="This is soshy(iggilightkuppa)’s blog. I welcome all visitors. Nice to meet you!" />
-    <link rel="canonical" href="https://iggilightkuppa.github.io//blog/chat/" />
-    <meta property="og:url" content="https://iggilightkuppa.github.io//blog/chat/" />
-    <meta property="og:site_name" content="soshy(iggilightkuppa)のブログ" />
+        content="This is iggilightkuppa's blog. I welcome all visitors. Nice to meet you!" />
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="iggilightkuppaのブログ" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="雑談" />
+    <meta property="twitter:title" content="{{ page.title }}" />
     <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"This is soshy(iggilightkuppa)’s blog. I welcome all visitors. Nice to meet you!","headline":"雑談","url":"https://iggilightkuppa.github.io//blog/chat/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"This is iggilightkuppa's blog. I welcome all visitors. Nice to meet you!","headline":"{{ page.title }}","url":"{{ site.url }}{{ site.baseurl }}{{ page.url }}"}</script>
     <!-- End Jekyll SEO tag -->
     <link rel="stylesheet" href="/blog/css/dark.css">
     <link type="application/atom+xml" rel="alternate" href="https://iggilightkuppa.github.io//blog/feed.xml"
-        title="soshy(iggilightkuppa)のブログ" />
+        title="iggilightkuppaのブログ" />
 </head>
 
 <body>
     <header class="site-header" role="banner">
 
-        <div class="wrapper"><a class="site-title" rel="author" href="/blog/">soshy(iggilightkuppa)のブログ</a>
+        <div class="wrapper"><a class="site-title" rel="author" href="/blog/">iggilightkuppaのブログ</a>
             <nav class="site-nav">
                 <input type="checkbox" id="nav-trigger" class="nav-trigger" />
                 <label for="nav-trigger">
@@ -54,31 +54,11 @@
             <article class="post">
 
                 <header class="post-header">
-                    <h1 class="post-title">雑談</h1>
+                    <h1 class="post-title">{{ page.title }}</h1>
                 </header>
 
                 <div class="post-content">
-                    <!--
-<style>
-    .page-link {
-        color: #00c000;
-    }
-    body {
-        background-color: #404048;
-        color : #fff;
-    }
-    h1 {
-        background: linear-gradient(transparent 90%, #0017c2 90%);
-    }
-</style>
--->
-
-                    <h1>いろいろ実験してみたかったので</h1>
-                    <p>以下テスト文とか…<br />
-                        のような気がする</p>
-
-                    <p><a href=".">自己ループ</a></p>
-
+                    {{ content }}
                 </div>
 
             </article>
@@ -90,12 +70,12 @@
 
         <div class="wrapper">
 
-            <h2 class="footer-heading">soshy(iggilightkuppa)のブログ</h2>
+            <h2 class="footer-heading">iggilightkuppaのブログ</h2>
 
             <div class="footer-col-wrapper">
                 <div class="footer-col footer-col-1">
                     <ul class="contact-list">
-                        <li class="p-name">soshy(iggilightkuppa)のブログ</li>
+                        <li class="p-name">iggilightkuppaのブログ</li>
                         <li><a class="u-email" href="mailto:iggilightkuppa@gmail.com">iggilightkuppa@gmail.com</a></li>
                     </ul>
                 </div>
@@ -112,7 +92,11 @@
                 </div>
 
                 <div class="footer-col footer-col-3">
-                    <p>This is soshy(iggilightkuppa)&#39;s blog. I welcome all visitors. Nice to meet you!</p>
+                    <p>
+                        This is soshy(iggilightkuppa)&#39;s blog.<br>
+                        I welcome all visitors.<br>
+                        Nice to meet you!
+                    </p>
                 </div>
             </div>
 

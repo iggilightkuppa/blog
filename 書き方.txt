@@ -14,3 +14,37 @@
         crossorigin="anonymous"
         async>
 </script>
+
+変数についてだが、まず使えるのはHTMLテンプレート(_layouts, _includes等？)のみ
+
+---
+something : somevalue
+---
+という風にYAML Front Matter(各ページの最初に書くもの)
+は
+{{ page.something }}
+展開後はsomevalue
+という風に呼べる(つまりpage.変数名)
+
+_config.ymlに以下のように書いたものは
+
+hogeString: hogehoge
+hoge:
+    hage: hogehage
+    fuge: hogefuge
+
+以下のように呼び出せる
+{{ site.hogeString }}, {{ site.hoge.hage }}, {{ site.hoge.fuge }}
+展開後はhogehoge, hogehage, hogefuge
+つまりsite.変数名
+
+一時変数
+以下のように書くと
+{% assign hogeVar = "hogehoge" %}
+以下のように呼び出せる
+{{ hogeVar }}
+展開後はhogehoge
+つまり変数名
+
+その他は
+https://qiita.com/y_hokkey/items/a9948686b2264675c0a6
