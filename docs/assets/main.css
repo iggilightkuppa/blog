@@ -48,6 +48,9 @@ li > ul, li > ol {
 h1, h2, h3, h4, h5, h6 {
     /* 通常のサイズ */
     font-weight: 400;
+    /* 下線(水色)をつける */
+    border-bottom: 2px solid #0099FF;
+    margin-bottom: 1em;
 }
 a {
     /* 標準リンク */
