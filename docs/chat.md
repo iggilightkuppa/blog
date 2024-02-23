@@ -1,5 +1,5 @@
 ---
-layout: dark
+layout: page
 title: 雑談
 css: [https://raw.githubusercontent.com/iggilightkuppa/blog/main/docs/css/dark.css]
 permalink: /chat/
