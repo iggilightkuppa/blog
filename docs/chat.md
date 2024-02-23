@@ -1,5 +1,5 @@
 ---
-layout: dark
+layout: page
 title: 雑談
 permalink: /chat/
 ---
