@@ -19,8 +19,10 @@ permalink: /chat/
 </style>
 -->
 
+<link rel="stylesheet" href="./css/dark.css" type="text/css">
+
 <h1>いろいろ実験してみたかったので</h1>
 以下テスト文とか...<br>
 のような気がする
 
-[自己ループ](./)
+[自己ループ](.)
