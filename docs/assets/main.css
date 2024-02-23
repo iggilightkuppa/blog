@@ -188,11 +188,13 @@ table td{
 .site-nav .menu-icon{
     display:none
 }
-.site-nav .page-link{
-    color:#111;line-height:1.5
+/* about, 雑談, 検索等右上の文字色 */
+.site-nav .page-link {
+    color: yellow;
+    line-height: 1.5;
 }
-.site-nav .page-link:not(:last-child){
-    margin-right:20px
+.site-nav .page-link:not(:last-child) {
+    margin-right: 20px;
 }
 @media screen and (max-width: 600px){
     .site-nav{
