@@ -176,7 +176,7 @@ table td{
 }
 /* 既に訪れていた場合 */
 .site-title, .site-title:visited {
-    color: #00cc00;
+    color: #fff;
 }
 .site-nav{
     float:right;
