@@ -1,16 +1,17 @@
 <!-- _layouts/dark.html -->
 
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>{{ page.title }}</title>
-        <!-- 他のメタタグを追加 -->
-
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <!-- 作成したCSSファイルをリンク -->
         <link rel="stylesheet" href="../css/dark.css">
+        <!-- 他のメタタグを追加 -->
+        <title>{{ page.title }}{% if page.subtitle %} — {{ page.subtitle }}{% endif %}</title>
     </head>
     <body>
         <!-- ページのコンテンツ -->
+        {{ content }}
     </body>
 </html>
