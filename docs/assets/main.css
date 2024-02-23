@@ -100,24 +100,24 @@ h6 {
 a {
     /* 標準リンク */
     /* color: #2a7ae2; */
-    /* やっぱりモーブ色 */
-    color: #915da3;
+    /* やっぱり紫色 */
+    color: #e000ff;
     /* 下線なし */
     text-decoration: none;
 }
 
 a:visited {
     /* 訪問済みリンク */
-    /* モーブ色 */
-    color: #915da3;
+    /* 紫色 */
+    color: #e000ff;
 }
 
 a:hover {
     /* タッチ時リンク */
     /* 暗めのオレンジ */
     /* color: #df6700; */
-    /* やっぱりモーブ色 */
-    color: #915da3;
+    /* やっぱり紫色 */
+    color: #e000ff;
     /* 下線あり (これで判断)*/
     text-decoration: underline;
 }
@@ -263,6 +263,13 @@ table td {
     color: #00bb00;
     /* 下線は引かない */
     text-decoration: none;
+}
+
+.site-title:hover {
+    /* ホバー時に右下にちょっと動かす(わかりやすさのため) */
+    position: relative;
+    top: 1px;
+    left: 1px;
 }
 
 .site-nav {
