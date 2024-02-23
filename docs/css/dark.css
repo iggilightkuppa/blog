@@ -287,7 +287,17 @@ table td {
 
 /* about, 雑談, 検索等右上の文字色 */
 .site-nav .page-link {
+    /* おまじない？前半の色が流れる線の上部、後半が下部？ */
+    background: linear-gradient(0deg, #44aaff, #44aaff) no-repeat right bottom / 0 var(--bg-h);
+    /* 何秒で通過するか */
+    transition: background-size 500ms;
+    /* 下線なし */
+    text-decoration: none;
+    /* 文字色 */
     color: yellow;
+    /* 流れる線の太さ */
+    --bg-h: 3px;
+    /* 謎 */
     line-height: 1.5;
 }
 
