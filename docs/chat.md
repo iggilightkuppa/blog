@@ -19,7 +19,7 @@ permalink: /chat/
 </style>
 -->
 
-<link rel="stylesheet" href="./css/dark.css" type="text/css">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/iggilightkuppa/blog/main/docs/css/dark.css" type="text/css">
 
 <h1>いろいろ実験してみたかったので</h1>
 以下テスト文とか...<br>
