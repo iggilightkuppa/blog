@@ -287,18 +287,16 @@ table td {
 
 /* about, 雑談, 検索等右上の文字色 */
 .site-nav .page-link {
-    /* おまじない？前半の色が流れる線の上部、後半が下部？ */
-    background: linear-gradient(0deg, #44aaff, #44aaff) no-repeat right bottom / 0 var(--bg-h);
-    /* 何秒で通過するか */
-    transition: background-size 500ms;
-    /* 下線なし */
-    text-decoration: none;
     /* 文字色 */
     color: yellow;
-    /* 流れる線の太さ */
-    --bg-h: 3px;
     /* 謎 */
     line-height: 1.5;
+}
+
+/* about, 雑談, 検索等右上の文字色のホバー時 */
+.site-nav .page-link:hover {
+    /* 文字をホバー時でっかくする */
+    transform: scale(1,1);
 }
 
 .site-nav .page-link:not(:last-child) {
@@ -313,7 +311,7 @@ table td {
         background-color: #fdfdfd;
         border: 1px solid #e8e8e8;
         border-radius: 5px;
-        text-align: right
+        text-align: right;
     }
 
     .site-nav label[for="nav-trigger"] {
@@ -322,7 +320,7 @@ table td {
         width: 36px;
         height: 36px;
         z-index: 2;
-        cursor: pointer
+        cursor: pointer;
     }
 
     .site-nav .menu-icon {
@@ -332,31 +330,31 @@ table td {
         height: 26px;
         line-height: 0;
         padding-top: 10px;
-        text-align: center
+        text-align: center;
     }
 
     .site-nav .menu-icon>svg {
-        fill: #424242
+        fill: #424242;
     }
 
     .site-nav input~.trigger {
         clear: both;
-        display: none
+        display: none;
     }
 
     .site-nav input:checked~.trigger {
         display: block;
-        padding-bottom: 5px
+        padding-bottom: 5px;
     }
 
     .site-nav .page-link {
         display: block;
         padding: 5px 10px;
-        margin-left: 20px
+        margin-left: 20px;
     }
 
     .site-nav .page-link:not(:last-child) {
-        margin-right: 0
+        margin-right: 0;
     }
 }
 
