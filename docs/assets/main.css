@@ -459,7 +459,7 @@ table td {
 /* topページに表示されるポストリンクの設定 */
 .post-link {
     /* display: block; */
-    font-size: 16px;
+    font-size: 20px;
     /* 下線を引く */
     /* text-decoration: underline; */
     /* 下線を水色 */
