@@ -464,8 +464,26 @@ table td {
     text-decoration: underline;
     /* 下線を水色 */
     text-decoration-color: #77ddff;
-    /* 文字色を薄紫 */
-    color: #ffccff;
+    /* 文字色を黒 */
+    color: #000;
+    /* フォントサイズは16px */
+    font-size: 16px;
+    /* フォントをより太く */
+    /* font-weight: bold; */
+    /* 背景は青 */
+    background: #00f;
+    /* 余白 */
+    padding: 18px 30px;
+    /* 角丸化 */
+    border-radius: 6px;
+    display: inline-block;
+    /* アニメーションの総処理時間 */
+    transition: .3s;
+}
+
+.post-link:hover {
+    /* ホバー時にでっかく */
+    transform: scale(1.1);
 }
 
 .post-header {
