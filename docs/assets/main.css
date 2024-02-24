@@ -431,8 +431,14 @@ table td {
 .page-heading {
     font-size: 32px
 }
-
+/* Posts等の一覧文字 */
 .post-list-heading {
+    /* 下線(水色)をつける */
+    border-bottom: 5px solid #0099FF;
+    margin-bottom: 1em;
+    /* 下線を以下の色で引く */
+    /* text-decoration-color: #77ddff; */
+    text-decoration: underline;
     font-size: 28px
 }
 
@@ -457,7 +463,7 @@ table td {
     /* 下線を引く */
     text-decoration: underline;
     /* 下線を深緑 */
-    text-decoration-color: #006600;
+    text-decoration-color: #77ddff;
 }
 
 .post-header {
