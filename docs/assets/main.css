@@ -464,19 +464,26 @@ table td {
     /* text-decoration: underline; */
     /* 下線を水色 */
     /* text-decoration-color: #77ddff; */
-    /* 文字色を黒 */
-    color: #000;
     /* フォントをより太く */
     /* font-weight: bold; */
     /* 背景は薄紫 */
     background: #ffddff;
     /* 余白 */
-    padding: 18px 30px;
+    padding: 12px 20px;
     /* 角丸化 */
     border-radius: 15px;
     display: inline-block;
     /* アニメーションの総処理時間 */
     transition: .3s;
+}
+
+.post-link,
+.post-link:visited,
+.post-link:hover {
+    /* 文字色を黒 */
+    color: #000;
+    /* 下線なし */
+    text-decoration: none;
 }
 
 .post-link:hover {
