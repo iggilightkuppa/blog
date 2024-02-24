@@ -467,9 +467,9 @@ table td {
     /* フォントをより太く */
     /* font-weight: bold; */
     /* 背景は薄紫 */
-    background: #ffddff;
+    background: #ffeeff;
     /* 余白 */
-    padding: 12px 20px;
+    padding: 9px 15px;
     /* 角丸化 */
     border-radius: 15px;
     display: inline-block;
@@ -481,7 +481,7 @@ table td {
 .post-link:visited,
 .post-link:hover {
     /* 文字色を黒 */
-    color: #000;
+    color: #444444;
     /* 下線なし */
     text-decoration: none;
 }
