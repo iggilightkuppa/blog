@@ -76,7 +76,7 @@ $(function() {
             var dl = $('<dl>');
             matchedPosts.forEach(function(postInfo) {
                 if(!postInfo.title.length) postInfo.title = 'untitled';
-                dl.append('<dt><a href="' + postInfo.url + '">' + postInfo.title + '</a></dt>');
+                dl.append('<dt><a class="post-link" href="' + postInfo.url + '">' + postInfo.title + '</a></dt>');
                 if(postInfo.date) {
                     dl.append('<dd>' + postInfo.date.year + '年' + postInfo.date.month + '月' + postInfo.date.day + '日' + '</dd>');
                 }
