@@ -302,7 +302,7 @@ table td {
 .site-nav .page-link:hover {
     /* 文字をホバー時でっかくする */
 	cursor: pointer;
-    transform: scale(1,3);
+    transform: scale(1.3);
 }
 
 .site-nav .page-link:not(:last-child) {
