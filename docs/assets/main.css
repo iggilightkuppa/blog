@@ -291,12 +291,18 @@ table td {
     color: yellow;
     /* 謎 */
     line-height: 1.5;
+    /* ホバー時に拡大するための前準備？ */
+	display: inline-block;
+	transition: all .3s ease 0s;
+    /* 下線なし */
+	text-decoration: none;
 }
 
 /* about, 雑談, 検索等右上の文字色のホバー時 */
 .site-nav .page-link:hover {
     /* 文字をホバー時でっかくする */
-    transform: scale(1,1);
+	cursor: pointer;
+    transform: scale(1,3);
 }
 
 .site-nav .page-link:not(:last-child) {
